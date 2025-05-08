@@ -33,7 +33,7 @@ if answer3 == 'a' or answer3 == 'india':
     score += 1
 
 
-# Question 3
+# Question 4
 print("\n4. Who won the orange cap of IPL 2008?")
 print("a) Mitchell Marsh\nb) Shaun Marsh\nc) Yusuf Pathan\nd) MS Dhoni")
 answer3 = input("Your answer: ").strip().lower()
@@ -48,11 +48,59 @@ answer3 = input("Your answer: ").strip().lower()
 if answer3 == 'c' or answer3 == 'Ben Stokes':
     score += 1
 
+
+# Question 5
+print("\n5. Who was the Most Valuable Player of IPL 2017?")
+print("a) Krunal Pandya\nb) Steve Smith\nc) Ben Stokes\nd) MS Dhoni")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'c' or answer3 == 'Ben Stokes':
+    score += 1
+
+
+# Question 6
+print("\n6. Who was the inaugral World Cup winner?")
+print("a) West Indies\nb) Australia\nc) India\nd) England")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'a' or answer3 == 'West Indies':
+    score += 1
+
+
+# Question 7
+print("\n7. One of the two new teams playing in IPL 2017 were Gujarat and  ?")
+print("a) Kerala\nb) Lucknow\nc) Pune\nd)Ranchi ")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'c' or answer3 == 'Pune':
+    score += 1
+
+# Question 8
+print("\n8. I have played for DD,KXIP,MI,PWI,SRH. Who am I?")
+print("a) Krunal Pandya\nb) Steve Smith\nc)Yuvraj Singh\nd) MS Dhoni")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'c' or answer3 == 'Yuvraj Singh':
+    score += 1
+
+# Question 9
+print("\n9. Who was the Most Valuable Player of IPL 2017?")
+print("a) Krunal Pandya\nb) Steve Smith\nc) Ben Stokes\nd) MS Dhoni")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'c' or answer3 == 'Ben Stokes':
+    score += 1
+
+# Question 10
+print("\n10. Who was the purple cap winner of IPL 2016?")
+print("a) Bhuvneshwar Kumar \nb) Yuzvendra Chahal\nc) Ben Stokes\nd) Rashid Khan")
+answer3 = input("Your answer: ").strip().lower()
+if answer3 == 'a' or answer3 == 'Bhuvneshwar Kumar':
+    score += 1
+
+
 # Final Score
-print(f"\nYour final score is: {score}/5")
-if score == 5:
+print(f"\nYour final score is: {score}/10")
+if score == 10:
     print("Excellent! You're a cricket champ!")
-elif score == 4:
+elif score == 9:
     print("Good job! You know your cricket.")
+elif score == 8:
+    print("Bravo, you are entering into the wolrd of cricket.")
 else:
     print("Keep learning. Cricket has a lot to offer!")
